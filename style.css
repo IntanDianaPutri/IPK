@@ -1,0 +1,101 @@
+/* Gaya Umum */
+body {
+    font-family: 'Open Sans', sans-serif;
+    /* Font yang mudah dibaca */
+    background-color: #b7b1b1;
+    /* Warna latar belakang yang lembut */
+    margin: 0;
+    /* Menghilangkan margin default */
+    padding: 0;
+    /* Menghilangkan padding default */
+}
+
+header {
+    background-color: #10703f;
+    /* Warna biru */
+    color: white;
+    /* Warna teks putih */
+    padding: 15px;
+    /* Ruang dalam header */
+    text-align: center;
+    /* Pusatkan teks */
+}
+
+main {
+    padding: 20px;
+    /* Ruang dalam untuk elemen utama */
+}
+
+/* Gaya untuk Input dan Label */
+label {
+    display: inline-block;
+    /* Biarkan label berada di garis yang sama dengan input */
+    width: 120px;
+    /* Lebar untuk label */
+    color: #030000;
+    /* Warna teks */
+    text-align: left;
+    /* Atur teks ke kiri */
+}
+
+input {
+    padding: 5px;
+    /* Ruang dalam input */
+    border-radius: 5px;
+    /* Sudut membulat */
+    border: 1px solid #ccc;
+    /* Border abu-abu */
+    width: 200px;
+    /* Lebar input */
+    margin-right: 10px;
+    /* Jarak antara input dan tombol */
+}
+
+button {
+    padding: 8px 12px;
+    /* Ruang dalam tombol */
+    border-radius: 5px;
+    /* Sudut membulat */
+    border: none;
+    /* Tanpa border */
+    background-color: #226621;
+    /* Warna biru */
+    color: white;
+    /* Warna teks putih */
+    cursor: pointer;
+    /* Menampilkan pointer saat hover */
+    margin-right: 10px;
+    /* Jarak antara tombol */
+}
+
+button:hover {
+    background-color: #2bc073;
+    /* Warna saat hover */
+}
+
+#hasil-ipk {
+    margin-top: 20px;
+    /* Jarak antara form dan hasil */
+}
+
+table {
+    width: 100%;
+    /* Lebar tabel penuh */
+    border-collapse: collapse;
+    /* Menghilangkan celah antar border */
+}
+
+th,
+td {
+    border: 1px solid #ddd;
+    /* Border abu-abu */
+    padding: 10px;
+    /* Ruang dalam sel */
+    text-align: center;
+    /* Atur teks di tengah */
+}
+
+th {
+    background-color: #f2f2f2;
+    /* Warna untuk header tabel */
+}
