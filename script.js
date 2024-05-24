@@ -7,6 +7,7 @@ const mahasiswa = [
     { "nim": 2105551022, "nama": "Dewi", "jurusan": "Teknologi Informasi" },
     { "nim": 2105551036, "nama": "Eca", "jurusan": "Teknologi Informasi" },
     { "nim": 2105551097, "nama": "Tami", "jurusan": "Teknologi Informasi" },
+    { "nim": 2105551097, "nama": "Tamago", "jurusan": "Teknologi Informasi" },
 ];
 
 // Data Dummy Mata Kuliah
@@ -49,6 +50,11 @@ const krs = [
     { "nim": 2105551022, "kodeMk": "MK002", "nilai": 90 },
     { "nim": 2105551022, "kodeMk": "MK003", "nilai": 98 },
     { "nim": 2105551022, "kodeMk": "MK004", "nilai": 79 },
+    { "nim": 2105551013, "kodeMk": "MK001", "nilai": 87 },
+    { "nim": 2105551013, "kodeMk": "MK002", "nilai": 88 },
+    { "nim": 2105551013, "kodeMk": "MK003", "nilai": 90 },
+    { "nim": 2105551013, "kodeMk": "MK004", "nilai": 77 },
+    { "nim": 2105551013, "kodeMk": "MK005", "nilai": 76 },
 ];
 
 // Fungsi untuk mengubah nilai numerik ke huruf
